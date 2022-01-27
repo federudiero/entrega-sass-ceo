@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+   
+
+}
+
+
+$widht: 50px;
+$height:50px;
+$radius:90%;
+
+
+/*extend*/
+
+.contacto{
+    color:  rgb(202, 199, 199);
+}
+
+
+
+.div__imagen-logo{
+    background-color:	rgba(56, 15, 15, 0.842);
+
+    .imglogo{
+        height: $height *6;
+        width: auto;
+        border-radius: 50%;
+        padding: 15px;
+    }
+  
+}
+.div__titulo-rja{
+    background-color: 	rgba(56, 15, 15, 0.842);
+    color: rgb(19, 18, 18);
+
+}
+.h2_contacto{
+    @extend .contacto;
+}
+.p_contactos{
+    @extend .contacto;
+}
+.maps{
+    height: $height *8;
+    width: $widht *8;
+    transition: 1s;
+}
+.maps:hover{
+    height: $height*10;
+    width: $widht*10;
+    transition: 1s;
+}
+.imgfooter{
+    height: $height;
+    width: $widht;
+    border-radius: $radius;
+}
