@@ -85,6 +85,11 @@
   transition: 2s;
 }
 
+iframe {
+  height: 500px;
+  width: 660px;
+}
+
 @media screen and (max-width: 767px) {
   .div-materiales {
     display: -ms-grid;
@@ -111,6 +116,10 @@
             box-shadow: 0px 15px 20px;
     -webkit-transition: 2s;
     transition: 2s;
+  }
+  iframe {
+    height: 300px;
+    width: 400px;
   }
 }
 
@@ -140,6 +149,10 @@
             box-shadow: 0px 15px 20px;
     -webkit-transition: 2s;
     transition: 2s;
+  }
+  iframe {
+    height: 400px;
+    width: 500px;
   }
 }
 /*# sourceMappingURL=style.css.map */
